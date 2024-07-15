@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "emuno",
   "version": "${version}",
-
   "name": "EmuNO",
   "description": "Disables various macOS-specific behaviors, making your life better",
   "authors": ["RyanCaoDev"],
@@ -10,21 +9,19 @@
     "homepage": "https://ryanccn.dev",
     "sources": "https://github.com/ryanccn/emuno"
   },
-
   "license": "MIT",
   "icon": "assets/emuno/icon.png",
-
   "entrypoints": {
-    "main": ["dev.ryanccn.emuno.EmuNOMod"]
+    "main": ["dev.ryanccn.emuno.EmuNOMod"],
+    "client": ["dev.ryanccn.emuno.EmuNOModClient"]
   },
   "mixins": [
     "emuno.mixins.json",
     {
-      "config": "emuno.mixins.json",
+      "config": "emuno.client.mixins.json",
       "environment": "client"
     }
   ],
-
   "depends": {
     "fabricloader": ">=0.15.11",
     "fabric-api": "*",

@@ -3,12 +3,6 @@
   "minVersion": "0.8",
   "package": "dev.ryanccn.emuno.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [
-  ],
-  "client": [
-    "MouseMixin",
-    "BatchDropMixin"
-  ],
   "injectors": {
     "defaultRequire": 1
   }

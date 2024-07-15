@@ -1,4 +1,4 @@
-package dev.ryanccn.emuno.mixin;
+package dev.ryanccn.emuno.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.util.InputUtil;

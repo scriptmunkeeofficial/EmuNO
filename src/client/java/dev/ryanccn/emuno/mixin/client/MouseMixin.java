@@ -1,4 +1,4 @@
-package dev.ryanccn.emuno.mixin;
+package dev.ryanccn.emuno.mixin.client;
 
 import net.minecraft.client.Mouse;
 
@@ -13,3 +13,4 @@ public class MouseMixin {
 		return false;
 	}
 }
+	
